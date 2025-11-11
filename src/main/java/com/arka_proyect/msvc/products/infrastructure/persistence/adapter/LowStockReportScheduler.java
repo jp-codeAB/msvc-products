@@ -6,9 +6,7 @@ import com.arka_proyect.msvc.products.domain.ports.out.IReportPort;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
 import java.util.List;
-
 
 @Component
 public class LowStockReportScheduler {
@@ -34,10 +32,7 @@ public class LowStockReportScheduler {
             return;
         }
         System.out.println("🚨 Productos con bajo stock encontrados: " + lowStockProducts.size());
-
-        // 💡 CAMBIO: Generar PDF
         String pdfPath = reportPort.savePdfReport(lowStockProducts, "low_stock_report_weekly");
-
         System.out.println("Reporte Semanal de Bajo Stock Finalizado. Archivo PDF en: " + pdfPath);
     }
 }

@@ -11,7 +11,7 @@ public class BusinessException extends RuntimeException {
 
     public BusinessException(String message) {
         super(message);
-        this.status = HttpStatus.CONFLICT; // 409
+        this.status = HttpStatus.CONFLICT;
     }
 
     public BusinessException(String message, HttpStatus status) {

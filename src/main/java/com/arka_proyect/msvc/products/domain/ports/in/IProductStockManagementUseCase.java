@@ -2,7 +2,6 @@ package com.arka_proyect.msvc.products.domain.ports.in;
 
 import com.arka_proyect.msvc.products.domain.model.Product;
 import com.arka_proyect.msvc.products.infrastructure.web.dto.request.StockItemRequest;
-
 import java.util.List;
 import java.util.Optional;
 

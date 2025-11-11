@@ -45,7 +45,6 @@ public class ProductReportService implements IProductReportUseCase {
         return pdfBytes;
     }
 
-
     @Override
     public String generateAllStockHistoryCsv() {
 

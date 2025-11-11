@@ -6,7 +6,6 @@ import com.arka_proyect.msvc.products.infrastructure.mapper.ICategoryMapper;
 import com.arka_proyect.msvc.products.infrastructure.persistence.entity.CategoryEntity;
 import com.arka_proyect.msvc.products.infrastructure.persistence.repository.ICategoryRepository;
 import org.springframework.stereotype.Component;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

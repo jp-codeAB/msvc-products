@@ -2,15 +2,11 @@ package com.arka_proyect.msvc.products.application.service;
 
 import com.arka_proyect.msvc.products.domain.model.Product;
 import com.arka_proyect.msvc.products.domain.model.StockChangeReason;
-import com.arka_proyect.msvc.products.domain.model.StockLog;
 import com.arka_proyect.msvc.products.domain.ports.in.*;
 import com.arka_proyect.msvc.products.domain.ports.out.IProductRepositoryPort;
-import com.arka_proyect.msvc.products.domain.ports.out.IReportPort;
 import com.arka_proyect.msvc.products.infrastructure.web.dto.request.StockItemRequest;
 import org.springframework.core.env.Environment;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;

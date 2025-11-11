@@ -6,7 +6,6 @@ import com.arka_proyect.msvc.products.domain.ports.out.ICategoryRepositoryPort;
 import com.arka_proyect.msvc.products.shared.exception.ResourceAlreadyExistsException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

@@ -6,7 +6,6 @@ import com.arka_proyect.msvc.products.domain.ports.out.IReportPort;
 import com.lowagie.text.Font;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
 import java.awt.*;
 import java.io.File;
 import java.io.FileWriter;
@@ -14,10 +13,8 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-
 import com.lowagie.text.*;
 import com.lowagie.text.pdf.PdfWriter;
-
 import java.io.ByteArrayOutputStream;
 
 @Component
