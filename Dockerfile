@@ -23,6 +23,5 @@ ENV DB_USER=postgres
 ENV DB_PASSWORD=100juanU
 
 EXPOSE 8081
-HEALTHCHECK CMD curl -f http://localhost:8086/actuator/health || exit 1
 
 ENTRYPOINT ["java","-jar","app.jar"]
