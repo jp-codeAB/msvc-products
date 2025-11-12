@@ -1,4 +1,4 @@
-name: CI msvc-products
+name: CI-msvc-products
 
 on:
   push:
